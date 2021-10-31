@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Rares Simion">
+		<meta name="keywords" content="HTML, CSS, TUI, Flight, Vacation">
+		<meta name="description" content="A responsive web page for a travel agency made using HTML and CSS only">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="favicon/favicon.png">
+		<title>Tui</title>
+	</head>
+	
+	<body>
+		<header class="Header">
+			<img src="img/logo.png" alt="Logo" title="Logo">
+			<h1 class="Title">Tui</h1>
+			<h2 class="Subtitle">Discover your smile</h2>
+		</header>
+		
+		<nav class="PcNav">
+			<ul>
+				<li><a id="Active" href="index.html">Home</a></li>
+				<li><a href="bestdestinations.html">Best Destinations</a></li>
+				<li><a href="tickets.html">Tickets</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<nav class="MobileNav">
+			<input class="menu-btn" type="checkbox" id="menu-btn"/>
+			<label class="menu-icon" for="menu-btn">
+				<span class="nav-icon"></span>
+			</label>
+			<ul class="menu">
+				<li><strong><a href="index.html" id="ActiveMobile">Home</a></strong></li>
+				<li><strong><a href="bestdestinations.html">Best Destinations</a></strong></li>
+				<li><strong><a href="tickets.html">Tickets</a></strong></li>
+				<li><strong><a href="contact.html">Contact Us</a></strong></li>
+			</ul>
+		</nav>
+		
+		<section class="Main">
+				<video class="Video" id="PCVideo" autoplay muted loop>
+					<source src="video/travel.mp4" type="video/mp4">
+					<source src="video/travel.ogg" type="video/ogg">
+					Your browser doesn't support the video tag.
+				</video>
+				
+				<video class="Video" id="TabletVideo" autoplay muted loop>
+					<source src="video/travelTablet.mp4" type="video/mp4">
+					<source src="video/travelTablet.ogg" type="video/ogg">
+					Your browser doesn't support the video tag.
+				</video>
+
+			<article class="Article" id="Article1">
+				<header class="ArticleHeader">
+					<h2><em>Fiji</em></h2>
+				</header>
+				
+				<figure class="Figure">
+					<a href="https://bit.ly/3b9SptT">
+						<img src="img/fiji.jpg" alt="Fiji" title="Fiji" class="MainImage">
+					</a>
+					
+					<footer>
+						<small>
+							<em><b>&copy;Reis-Expert</b></em>
+						</small>
+					</footer>
+				</figure>
+				
+				<p>
+					From the traditional Bobo massages to the therapeutic rays of South Pacific sun, the islands of Fiji offer visitors the ultimate in relaxation. 
+					Take a fragrant stroll through the botanical gardens of Nadi before settling in on the beach to watch the sun slip down for the night. 
+					Nap in the shade of a Savusavu palm tree, or float in the lagoons of Viti Levu. 
+					The waterfalls and lush rainforest of Taveuni Island are peaceful places to commune with nature at your own pace.
+				</p>
+				
+				<a href="https://bit.ly/3b9SptT" class="Book">
+					<strong>Book now!</strong>
+				</a>
+			</article>
+			
+			<article class="Article" id="Article2">
+				<header class="ArticleHeader">
+					<h2><em>Seychelles</em></h2>
+				</header>
+				
+				<figure class="Figure">
+					<a href="https://bit.ly/2ZppbVG">
+						<img src="img/seychelles.png" alt="Seychelles" title="Seychelles" class="MainImage">
+					</a>
+					
+					<footer>
+						<small>
+							<em><b>&copy;Escales-Ponant</b></em>
+						</small>
+					</footer>
+				</figure>
+				
+				<p>
+					Sailing, diving, fishing and relaxing are the main activities for visitors to the 115 islands of this Indian Ocean archipelago. 
+					Mahé, Praslin and La Digue are the most popular islands. 
+					Mahé boasts 65 silver beaches, plus an array of restaurants, cafés, bars and casinos in the tiny capital, Victoria. 
+					The Seychelles are home to UNESCO-designated sites, coral atoll Aldabra and Vallée de Mai, called the Garden of Eden. 
+					Creole is the main language, but English and French are widely spoken.
+				</p>
+				
+				<a href="https://bit.ly/2ZppbVG" class="Book">
+					<strong>Book now!</strong>
+				</a>
+			</article>
+			
+			<article class="Article" id="Article3">
+				<header class="ArticleHeader">
+					<h2><em>Aruba</em></h2>
+				</header>
+				
+				<figure class="Figure">
+					<a href="https://bit.ly/3nzb6wy">
+						<img src="img/aruba.jpg" alt="Aruba" title="Aruba" class="MainImage">
+					</a>
+					
+					<footer>
+						<small>
+							<em><b>&copy;TripAdvisor</b></em>
+						</small>
+					</footer>
+				</figure>
+				
+				<p>
+					The quintessential Caribbean island, Aruba is all sun and sea and stretches of powdery sand.
+					Time slows to a languid pace here as you linger over a tropical drink or bob serenely in the water; only the parrotfish are in a hurry. 
+					Oranjestad's pastel facades of landmarks and shops boost the capital city's playful vibe. 
+					Scout out a shady hammock—the perfect spot for a nap—as the crashing waves of turquoise water create a soothing soundtrack.
+				</p>
+				
+				<a href="https://bit.ly/3nzb6wy" class="Book">
+					<strong>Book now!</strong>
+				</a>
+			</article>
+			
+			<aside class="Side">
+				<h3>
+					Top 5 Upcoming Travel Destinations
+				</h3>
+				<ol>
+					<li>
+						<strong>Faroe Islands</strong>
+					</li>
+					
+					<li>
+						<strong>Slovenia</strong>
+					</li>
+					
+					<li>
+						<strong>Egypt</strong>
+					</li>
+					
+					<li>
+						<strong>Tahiti</strong>
+					</li>
+					
+					<li>
+						<strong>Tunisia</strong>
+					</li>
+				</ol>
+			</aside>
+		</section>
+		
+		<section class="Cookie">
+			<p>We make use of various types of cookies on our website for a better experience</p>
+		</section>
+		
+		<footer class="Footer">
+			<p>Copyright &copy; Rares Simion 683655@student.inholland.nl</p>
+		</footer>
+	</body>
+</html>

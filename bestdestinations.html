@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Rares Simion">
+		<meta name="keywords" content="HTML, CSS, TUI, Flight, Vacation">
+		<meta name="description" content="A responsive web page for a travel agency made using HTML and CSS only">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="favicon/favicon.png">
+		<title>Best Destinations | Tui</title>
+	</head>
+	
+	<body>
+		<header class="Header">
+			<img src="img/logo.png" alt="Logo" title="Logo">
+			<h1 class="Title">Tui</h1>
+			<h2 class="Subtitle">Discover your smile</h2>
+		</header>
+		
+		<nav class="PcNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="bestdestinations.html" id="Active">Best Destinations</a></li>
+				<li><a href="tickets.html">Tickets</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<nav class="MobileNav">
+			<input class="menu-btn" type="checkbox" id="menu-btn"/>
+			<label class="menu-icon" for="menu-btn">
+				<span class="nav-icon"></span>
+			</label>
+			<ul class="menu">
+				<li><strong><a href="index.html">Home</a></strong></li>
+				<li><strong><a href="bestdestinations.html" id="ActiveMobile">Best Destinations</a></strong></li>
+				<li><strong><a href="tickets.html">Tickets</a></strong></li>
+				<li><strong><a href="contact.html">Contact Us</a></strong></li>
+			</ul>
+		</nav>
+		
+		<section class="Grid">
+			<article class="GridArticle" id="Grid1">
+				<header class="GridHeader">
+					<h1 class="GridH1">Faroe Islands</h1>
+				</header>
+				
+				<p class="GridParagraph" id="Faroe">
+					Bobbing in the frothing North Atlantic, the remote, 18-piece Faroes are a picturesque patchwork of emerald pastures, dotted with sheep, gaily-hued cottages and tree-free moors. 
+					The sea is never more than three miles distant in this proud, assured land, where deep-rooted traditions remain strong.
+					The coasts boast deep fjords, steep cliffs and looming headlands. Explore these fjords by wooden sloop or sail the coast by schooner.
+					Walk the fells and brave the unpredictable weather to puffin spot.
+				</p>
+			</article>
+			
+			<article class="GridArticle" id="Grid2">
+				<header class="GridHeader">
+					<h1 class="GridH1">Slovenia</h1>
+				</header>
+		
+				<p class="GridParagraph" id="Slovenia">
+					The former Yugoslav republic of Slovenia, which gained its independence in 1991, is slightly smaller than New Jersey. With one toe dipped in the Adriatic and several major rivers and lakes, water sports are popular. 
+					To the east, the Alps provide excellent hiking and skiing. 
+					Nestled below its castle, the capital of Llubjana is a vibrant, youthful city with a thrilling arts scene, a flotilla of festivals and impressive architecture that runs the stylistic gamut from Renaissance to Art Nouveau.
+				</p>
+			</article>
+			
+			<article class="GridArticle" id="Grid3">
+				<header class="GridHeader">
+					<h1 class="GridH1">Egypt</h1>
+				</header>
+				
+				<!--<figure>
+					<img src="img\egypt.jpg" alt="Egypt" title="Egypt" class="GridImage"></img>
+					
+					<footer>
+						<small>
+							&copy;The New York Times
+						</small>
+					</footer>
+				</figure> -->
+				
+				
+				<p class="GridParagraph" id="Egypt">
+					An enigmatic treasure trove of almost unimaginable archaeological and cultural riches, it's hard not to think of Egypt without imagining the Sphinx, the pyramids at Giza, Luxor, the Valley of the Kings and the Nile. 
+					As well as being the world's largest open-air museum, Egypt also offers a slew of luxurious Red Sea resorts, many within reach of spectacular snorkeling, diving and windsurfing. 
+					Whether you see it by riverboat, from camelback or from just above the coral, Egypt's sights are unforgettable.
+				</p>
+			</article>
+			
+			<article class="GridArticle" id="Grid4">
+				<header class="GridHeader">
+					<h1 class="GridH1">Tahiti</h1>
+				</header>
+				
+				<!-- <figure>
+					<img src="img\tahiti.jpg" alt="Tahiti" title="Tahiti" class="GridImage"></img>
+					
+					<footer>
+						<small>
+							&copy;Accor Hotels
+						</small>
+					</footer>
+				</figure> -->
+				
+				<p class="GridParagraph">
+					The unique and ubiquitous island of Tahiti is world-renowned for its Polynesian charm, colorful culture and romantic ambiance. 
+					The grass-skirted hip shaking of Tahitian dance is sure to get your toes tapping and heart thumping—let the celebratory vibe of this magical locale rejuvenate and excite you to the core.
+					Warm-water lagoons and crystalline ocean tides are host to a rainbow’s worth of colorful marine life, and the food, drink, spas and dramatic nightlife provide an experience to stimulate all the senses.
+				</p>
+			</article>
+			
+			<article class="GridArticle" id="Grid5">
+				<header class="GridHeader">
+					<h1 class="GridH1">Tunisia</h1>
+				</header>
+				
+				<!-- <figure>
+					<img src="img\tunisia.png" alt="Tunisia" title="Tunisia" class="GridImage"></img>
+					
+					<footer>
+						<small>
+							&copy;IngmarBruinsma
+						</small>
+					</footer>
+				</figure> -->
+				
+				<p class="GridParagraph" id="Tunisia">
+					Once home to ancient Carthage and now governed from its capital, Tunis, Tunisia’s historical significance and cosmopolitan charm is world-renowned. 
+					Bookended by the Mediterranean Sea and Sahara Desert, the country’s fertile landscape, coastal resorts, and warm temperatures draw holidaymakers in search of sights, sea, and sun.
+				</p>
+			</article>
+			
+			<article class="GridArticle" id="Grid6">
+				<header class="GridHeader">
+					<h1 class="GridH1">Ireland</h1>
+				</header>
+				
+				<!-- <figure>
+					<img src="img\slovenia.jpg" alt="Ireland" title="Ireland" class="GridImage" id="Ireland"></img>
+					
+					<footer>
+						<small>
+							&copy;Ireland.com
+						</small>
+					</footer>
+				</figure> -->
+				
+				<p class="GridParagraph" id="IrelandText">
+					Woven with wild greenery and Gaelic legends, the Emerald Isle is one of Europe’s most prized jewels.
+					Rugged Atlantic beaches and mystery-shrouded sites rub shoulders with the cosmopolitan cities of Belfast and Dublin, where literary history and warm Irish hospitality are always in abundance.
+				</p>
+			</article>
+			
+			<aside class="GridArticle">
+					<p class="GridTitle">Visit the Faroe Islands!</p>
+					
+					<figure>
+						<a href="https://bit.ly/3122s29">
+							<img  class="GridImage" src="img/faroe2.jpg" alt="Faroe Islands" title="Faroe Islands">
+						</a>
+						
+						<footer>
+							<small>
+								<em><b>&copy;Luxurious Magazine</b></em>
+							</small>
+						</footer>
+					</figure>
+			</aside>
+				
+			<aside class="GridArticle">
+					<p class="GridTitle">Visit Tahiti!</p>
+					
+					<figure>
+						<a href="https://bit.ly/3BkDuaP">
+							<img class="GridImage" src="img/tahiti2.jpg" alt="Tahiti" title="Tahiti">
+						</a>
+						
+						<footer>
+							<small>
+								<em><b>&copy;Wereldreizigersclub</b></em>
+							</small>
+						</footer>
+					</figure>
+			</aside>
+			
+			<aside class="GridArticle" id="GridArticle3">
+					<p class="GridTitle">Visit Egypt!</p>
+					
+					<figure>
+						<a href="https://bit.ly/3CnkrxY">
+							<img class="GridImage" src="img/egypt2.png" alt="Egypt" title="Egypt">
+						</a>
+						
+						<footer>
+							<small>
+								<em><b>&copy;Global Finance Magazine</b></em>
+							</small>
+						</footer>
+					</figure>
+				
+			</aside>
+		</section>
+		
+		<section class="Cookie">
+			<p>We make use of various types of cookies on our website for a better experience</p>
+		</section>
+		
+		<footer class="Footer">
+			<p>Copyright &copy; Rares Simion 683655@student.inholland.nl</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Rares Simion">
+		<meta name="keywords" content="HTML, CSS, TUI, Flight, Vacation">
+		<meta name="description" content="A responsive web page for a travel agency made using HTML and CSS only">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="favicon/favicon.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Notable">
+		<title>Contact | Tui</title>
+	</head>
+	
+	<body>
+		<header class="Header">
+			<img src="img/logo.png" alt="Logo" title="Logo">
+			<h1 class="Title">Tui</h1>
+			<h2 class="Subtitle">Discover your smile</h2>
+		</header>
+		
+		<nav class="PcNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="bestdestinations.html">Best Destinations</a></li>
+				<li><a href="tickets.html">Tickets</a></li>
+				<li><a id="Active" href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<nav class="MobileNav">
+			<input class="menu-btn" type="checkbox" id="menu-btn"/>
+			<label class="menu-icon" for="menu-btn">
+				<span class="nav-icon"></span>
+			</label>
+			<ul class="menu">
+				<li><strong><a href="index.html">Home</a></strong></li>
+				<li><strong><a href="bestdestinations.html">Best Destinations</a></strong></li>
+				<li><strong><a href="tickets.html">Tickets</a></strong></li>
+				<li><strong><a href="contact.html" id="ActiveMobile">Contact Us</a></strong></li>
+			</ul>
+		</nav>
+		
+		<section class="Main" id="AsideMain">
+			<article class="Contact">
+				<h2 id="ContactTitle">Feel free to contact us if you have any questions.</h2>
+				
+				<form method="post" id="Form" action="index.html">
+					<fieldset>
+						<legend>Contact Information</legend>
+						
+						<label for="firstName" class="ContactLabel">First Name</label>
+						<input type="text" id="firstName" name="firstName" placeholder="Your First Name">
+						
+						<label for="lastName" class="ContactLabel">Last Name</label>
+						<input type="text" id="lastName" name="lastName" placeholder="Your Last Name">
+						
+						<label for="email" class="ContactLabel">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@example.com">
+						
+						<label for="message" class="ContactLabel">Your Message</label>
+						<textarea id="message" name="message" placeholder="Your Message"></textarea>
+						
+						<button type="submit" class="Button"><strong>Send Message</strong></button>
+					</fieldset>
+				</form>
+			</article>
+			
+			<aside id="Aside">
+					<figure class="AsideArticle">
+						<p class="AsideTitle"><strong>Visit Dubai!</strong></p>
+						<a href="https://bit.ly/3blDGfo">
+							<img src="img/dubai.jpg" alt="Dubai" title="Dubai" class="SideImage">
+						</a>
+						
+						<footer>
+							<small class="AsideCopy">
+								<em><b>&copy;RTL Niews</b></em>
+							</small>
+						</footer>
+					</figure>
+		
+					
+					<figure class="AsideArticle">
+						<p class="AsideTitle"><strong>Visit Istanbul!</strong></p>
+						<a href="https://bit.ly/3bnTYV7">
+							<img src="img/istanbul.jpg" alt="Istanbul" title="Istanbul" class="SideImage">
+						</a>
+						
+						<footer>
+							<small class="AsideCopy">
+								<em><b>&copy;Europa Vakanties</b></em>
+							</small>
+						</footer>
+					</figure>
+				
+				
+					
+					<figure class="AsideArticle">
+						<p class="AsideTitle"><strong>Visit Nairobi!</strong></p>
+						<a href="https://bit.ly/3moWMHP" id="miau">
+							<img src="img/nairobi.jpg" alt="Nairobi" title="Nairobi" class="SideImage">
+						</a>
+						
+						<footer>
+							<small class="AsideCopy">
+								<em><b>&copy;Beste reistijd</b></em>
+							</small>
+						</footer>
+					</figure>
+				
+
+			</aside>
+		</section>
+		
+		<section class="Cookie">
+			<p>We make use of various types of cookies on our website for a better experience</p>
+		</section>
+		
+		<footer class="Footer">
+			<p>Copyright &copy; Rares Simion 683655@student.inholland.nl</p>
+		</footer>
+	</body>
+</html>
