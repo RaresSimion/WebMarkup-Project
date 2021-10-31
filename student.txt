@@ -1,0 +1,4 @@
+Student name: Rares Simion
+Student number: 683655
+Student class: IT1B
+GitHub URL: https://github.com/RaresSimion/WebMarkup-Project
